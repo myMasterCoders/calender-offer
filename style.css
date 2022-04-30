@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    position: relative;
+    direction: rtl;
+    font-size: 1rem;
+    font-weight: bold;
+    align-items: center;
+    color:#515151;
+}
+.offer{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-color: pink;
+    font-size: 1rem;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.7);
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 20px;
+}
+.timer{
+    width: 350px;
+    height: 100px;
+    background-color: cornflowerblue;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+.offer button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    outline-color: red;
+    border: none;
+}
+.timer span{
+    font-size: 2rem;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
